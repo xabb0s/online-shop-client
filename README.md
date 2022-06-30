@@ -1,3 +1,9 @@
+# Server is here
+
+You can find the server part of this client
+
+<a href="https://github.com/xabb0s/online-shop.git">Server repository</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
