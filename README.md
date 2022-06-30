@@ -1,3 +1,7 @@
+# Install modules
+
+### `npm install`
+
 # Server is here
 
 You can find the server part of this client
