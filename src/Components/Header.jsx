@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <div className="flex gap-5 p-3 w-full overflow-y-auto bg-slate-100">
-      { categories.map(category => <Categories name={category.name} />) }
+      { categories.map(category => <Categories key={category.id} name={category.name} />) }
     </div>
   )
 }
