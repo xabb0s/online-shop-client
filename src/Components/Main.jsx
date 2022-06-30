@@ -14,7 +14,7 @@ function Main() {
 
   return (
     <div className="w-full flex flex-wrap gap-5">
-      { products.map(product => <Products id={product.id} name={product.name} about={product.about} price={product.price} />) }
+      { products.map(product => <Products key={product.id} id={product.id} name={product.name} about={product.about} price={product.price} />) }
     </div>
   )
 }
